@@ -33,6 +33,7 @@ class App extends Component {
 			);
 	};
 
+
 	prevHandle = () => {
 		if (this.state.pokemonData.previous) {
 			console.log(this.state.pokemonData.previous);
